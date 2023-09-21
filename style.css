@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@800&family=Rubik+Bubbles&display=swap');
+
+@font-face{
+	
+}
+
+
+body {
+	background-color: #f2f2f2;
+	color: black;
+	font-family: helvetica;
+	font-size: 30px;
+}
+
+
+h1 {
+	color: #F20530;
+	text-align: center;
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	font-family: 'Rubik Bubbles', cursive;
+	font-style: italic;
+	font-size: 100px;
+}
+
+h3 {
+	color: #ED050B;
+	text-align: center;
+	font-size: 200px;
+	margin: 50px;
+}
+
+p {
+	font-style: bold;
+	text-align: center;
+	font-size: 40px;
+}
+
+#bottomPara {
+	font-weight: bold;
+	font-size: 50px;
+	color: #ff0072;
+}
+
+
+
+.topPara {
+	font-family: courier;
+	background-color: #78C1C8;
+	border: 2px dotted #000;
+	border-radius: 100%;
+	text-align: center;
+	padding: 80px;
+	margin: 30px;
+	width: 95%;
+	height: 60px;
+	font-size: 50px;
+	display: inline-block;
+}
+
+
+.otherClass {
+	background-color: #f20530;
+}
+
+.anotherClass {
+	background-color: #B18FBF;
+}
+
+.cover {
+	width: 500px;
+	height: 500px;
+}
+
+#daisyHeader {
+	width: 100%;
+	height: 700px;
+	border-radius: 10px;
+
+}
+
+#theStar {
+  margin: 5em;
+  border: 3px solid #EF72AA;
+  backgrou6d: #36A356;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  transform: rotate(20deg);
+}
+
+#theStar:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 80px;
+  background: #36A356;
+}
+
+#theStar:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 80px;
+  transform: rotate(135deg);
+  background-color: #36A356;
+  border: 3px solid #EF72AA;
+}
+/* theStar reference from: https://css-tricks.com/the-shapes-of-css/ &
+ https://stackoverflow.com/questions/34644437/how-do-i-add-a-border-to-an-8-point-star-css-shape*/
+
+
+#time1 {
+	color: #BF368F;
+}
+
+#time2 {
+	color: #C4DFF0;
+}
+
+#time3 {
+	color: #040000;
+}
+
+#date {
+	color: ##E70015;
+}
