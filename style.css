@@ -27,19 +27,19 @@ h1 {
 h3 {
 	color: #ED050B;
 	text-align: center;
-	font-size: 200px;
+	font-size: 100px;
 	margin: 50px;
 }
 
 p {
 	font-style: bold;
 	text-align: center;
-	font-size: 40px;
+	font-size: 20px;
 }
 
 #bottomPara {
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 30px;
 	color: #ff0072;
 }
 
@@ -49,13 +49,13 @@ p {
 	font-family: courier;
 	background-color: #78C1C8;
 	border: 2px dotted #000;
-	border-radius: 100%;
+	border-radius: 90%;
 	text-align: center;
-	padding: 80px;
-	margin: 30px;
+	padding: 50px;
+	margin: 10px;
 	width: 95%;
-	height: 60px;
-	font-size: 50px;
+	height: 50px;
+	font-size: 30px;
 	display: inline-block;
 }
 
@@ -69,13 +69,13 @@ p {
 }
 
 .cover {
-	width: 500px;
-	height: 500px;
+	width: 200px;
+	height: 200px;
 }
 
 #daisyHeader {
 	width: 100%;
-	height: 700px;
+	height: 500px;
 	border-radius: 10px;
 
 }
